@@ -5,12 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Pink Boots | Home</title>
 		<link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500%7cMerienda+One%7cRoboto:100,300,400,500" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<link rel="stylesheet" href="css/photoswipe.css"> 
+		<link rel="stylesheet" type="text/css" href="css/default_skin/default-skin.css"/>
+		<link rel="stylesheet" href="css/hover.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/gallery.css">
 	</head>
 	<body>
 		<div id="container" class="cf">
 			<header id="header" class="cf">
-				<input type="text" placeholder="Search Catalog">
 				<div class="logo">
 					<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
 				</div>
@@ -18,16 +24,14 @@
 					<a href="#menu" class="menu-link"><span class="icon-menu"></span></a>
 					<nav id="menu" role="navigation">
 						<ul>
+							<li><a href="#" class="selected">Home</a></li>
 							<li><a href="shop.html">Shop</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="lookbook.html">Look Book</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="quick-links">
 					<ul>
-						<li><a href="#" class="search-icon"><img src="images/search.png" data-src="images/search.png" data-hover="images/search_hover.png" alt="Search Icon"></a></li>
-						<li class="transient-nav"><a href="#"><img src="images/account.png" data-src="images/account.png" data-hover="images/account_hover.png" alt="User Account"></a></li>
 						<li class="transient-nav"><a href="#"><img src="images/wishlist.png" data-src="images/wishlist.png" data-hover="images/wishlist_hover.png" alt="Wishlist"></a></li>
 						<li><a href="cart.html"><img src="images/bag.png" data-src="images/bag.png" data-hover="images/bag_hover.png" alt="Shopping Bag"></a></li>
 					</ul>
@@ -37,10 +41,12 @@
 				<img src="images/home_hero.jpg" alt="New Collection">
 				<div class="caption">
 					<p>Life is too short to wear boring boots.</p>
-					<a class="button" href="shop.html">Shop now</a>
+					<a class="button hvr-float-shadow" href="shop.html">Shop now</a>
 				</div>
 			</div>
-			<div class="product-teaser box">
+			<div>
+				<div class="restrict-width">
+					<div class="product-teaser box">
 				<h1>What's New ?</h1>
 				<div class="product-nav">
 					<ul>
@@ -55,9 +61,9 @@
 							<a href="product.html"><img alt="yarah" src="images/catalog/yarah.jpg" data-src="images/catalog/yarah.jpg" data-hover="images/catalog/yarah_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> YARAH </h3>
@@ -67,9 +73,9 @@
 							<a href="product.html"><img alt="neshka" src="images/catalog/neshka.jpg" data-src="images/catalog/neshka.jpg" data-hover="images/catalog/neshka_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> NESHKA </h3>
@@ -79,9 +85,9 @@
 							<a href="product.html"><img alt="estefana" src="images/catalog/estefana.jpg" data-src="images/catalog/estefana.jpg" data-hover="images/catalog/estefana_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> ESTEFANA </h3>
@@ -91,9 +97,9 @@
 							<a href="product.html"><img alt="lyricaa" src="images/catalog/lyricaa.jpg" data-src="images/catalog/lyricaa.jpg" data-hover="images/catalog/lyricaa_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> LYRICAA </h3>
@@ -105,9 +111,9 @@
 							<a href="product.html"><img alt="yulia" src="images/catalog/yulia.jpg" data-src="images/catalog/yulia.jpg" data-hover="images/catalog/yulia_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> YULIA </h3>
@@ -117,9 +123,9 @@
 							<a href="product.html"><img alt="svetlana" src="images/catalog/svetlana.jpg" data-src="images/catalog/svetlana.jpg" data-hover="images/catalog/svetlana_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> SVETLANA </h3>
@@ -129,9 +135,9 @@
 							<a href="product.html"><img alt="kassandra" src="images/catalog/kassandra.jpg" data-src="images/catalog/kassandra.jpg" data-hover="images/catalog/kassandra_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> KASSANDRA </h3>
@@ -141,9 +147,9 @@
 							<a href="product.html"><img alt="nyaling" src="images/catalog/nyaling.jpg" data-src="images/catalog/nyaling.jpg" data-hover="images/catalog/nyaling_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> NYALING </h3>
@@ -155,9 +161,9 @@
 							<a href="product.html"><img alt="ingrid" src="images/catalog/ingrid.jpg" data-src="images/catalog/ingrid.jpg" data-hover="images/catalog/ingrid_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> INGRID </h3>
@@ -167,9 +173,9 @@
 							<a href="product.html"><img alt="accacia" src="images/catalog/accacia.jpg" data-src="images/catalog/accacia.jpg" data-hover="images/catalog/accacia_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> ACCACIA </h3>
@@ -179,9 +185,9 @@
 							<a href="product.html"><img alt="ishka" src="images/catalog/ishka.jpg" data-src="images/catalog/ishka.jpg" data-hover="images/catalog/ishka_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> ISHKA </h3>
@@ -191,9 +197,9 @@
 							<a href="product.html"><img alt="violia" src="images/catalog/violia.jpg" data-src="images/catalog/violia.jpg" data-hover="images/catalog/violia_hover.jpg"></a>
 							<div class="quick-icons">
 								<ul class="cf">
-									<li><a href="#"><img src="images/bag.png" alt="Shopping bag"></a></li>
-									<li><a href="#"><img src="images/wishlist.png" alt="Wishlist"></a></li>
-									<li><a href="#"><img src="images/quickview.png" alt="Quick View"></a></li>
+									<li><a><img src="images/bag.png" alt="Shopping bag"></a></li>
+									<li><a><img src="images/wishlist.png" alt="Wishlist"></a></li>
+									<li><a><img src="images/quickview.png" alt="Quick View"></a></li>
 								</ul>
 							</div>
 							<h3> VIOLIA </h3>
@@ -201,54 +207,396 @@
 						</div>
 					</div>
 				</div>		
+					</div>
+				</div>
 			</div>
 			<div class="new-collection cf">
-				<div class="new-collection-img">
-					<img src="images/winter_collection.png" alt="Winter Collection">
-				</div>
-				<div class="new-collection-caption box">
-					<h1>WINTER ARRIVALS 2016</h1>
-					<p>Winter is officially here! Discover our picks for this season's hottest boots and booties</p>
-					<a class="button" href="shop.html">Shop now</a>
-				</div>
-			</div>
-			<div class="testimonials small-box">
-				<h1> Testimonials </h1>
-				<p class="testimonial">"Everything that I have received from Pink Boots has been excellent. They never fail with quality and the amazing boots they have. I have been hooked since the first pair! Love!"</p>
-				<p class="author">-Sharlonda T.</p>
-				<div class="small-button selected"></div>
-				<div class="small-button"></div>
-				<div class="small-button"></div>
-			</div>
-			<div id="about" class="cf">
-				<div class="about-img">
-					<img alt="About" src="images/about.jpg">
-				</div>
-				<div class="about-desc box">
-					<h1> A little about us </h1>
-					<p> Great style begins with the right boots, and we have been delivering them to your door since 1996, From comfortable, casual boots to the dress boots that make your occasions special, we've got the styles, brands and expertise to ensure you get the look you want in the size you need.</p>
-					<a class="button" href="#">Learn more</a>
-					<a class="button" href="shop.html">Shop now</a>
+				<div class="restrict-width">
+					<div class="new-collection-section box">
+						<div class="new-collection-caption">
+							<h1>WINTER ARRIVALS 2016</h1>
+							<p>Winter is officially here! Discover our picks for this season's hottest boots and booties</p>
+							<a class="button hvr-float-shadow" href="shop.html">Shop now</a>
+						</div>
+						<div class="new-collection-img">
+							<img src="images/winter_collection.png" alt="Winter Collection">
+						</div>
+					</div>
 				</div>
 			</div>
+			<div class="testimonial-section">
+				<div class="restrict-width">
+					<div class="testimonials small-box">
+						<h1> Testimonials </h1>
+						<div class="testimonial-slides">
+							<div class="testimonial">
+								<div class="testimonial-boxes">
+									<div class="testimonial-box">
+										<p class="testimonial">"Everything that I have received from Pink Boots has been excellent. They never fail with quality and the amazing boots they have. They arrive on time in well packaged boxes. I have been hooked since the first pair! Love!"</p>
+										<p class="author">-Sharlonda T.</p>
+									</div>
+									<div class="testimonial-box second-testimonial">
+										<p class="testimonial">"I purchased boots for my daughters 21st Birthday. They are STUNNING in person. Gorgeous craftsmanship. This is the best purchase ever. This is my place to buy boots for all ocassions"</p>
+										<p class="author">-Christine G.</p>
+									</div>
+									<div class="testimonial-box third-testimonial">
+										<p class="testimonial">"All the boots I order in Pink Boots come fast and fit perfect. I ordered around 10 pairs for me and my friends and We all have received compliments. They are super cute and great for the price. I am a lifetime member."</p>
+										<p class="author">-Barbara L.</p>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial">
+								<div class="testimonial-boxes">
+									<div class="testimonial-box">
+										<p class="testimonial">"The shoes fit perfectly. They all look exactly like in the pictures and they always arrive earlier than expected. They have awesome prices. I love Pink Boots. I recommend them all the time."</p>
+										<p class="author">-Angela M.</p>
+									</div>
+									<div class="testimonial-box second-testimonial">
+										<p class="testimonial">"These are my 3rd pair, my very first one's were the Brown one's, I wore them OUT!!! I always get complements on them all the time, very satisfied with all three of my purchases... THANK YOU JUSTFAB."</p>
+										<p class="author">-Dolores B.</p>
+									</div>
+									<div class="testimonial-box third-testimonial">
+										<p class="testimonial">"All the boots I buy at Pink Boots are amazing, They arrive to my house early. All of them are of great quality & material. They feel luxurious even though the price is very affordable. They have great deals too."</p>
+										<p class="author">-Mphatso T.</p>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial">
+								<div class="testimonial-boxes">
+									<div class="testimonial-box">
+										<p class="testimonial">"I ALWAYS have trouble finding shoes being that I have a larger foot than most. I'm so glad I found Pink Boots because no shoes have ever fit better. They are inexpensive and last a long time. I will keep ordering until that changes lol."</p>
+										<p class="author">-Laura T.</p>
+									</div>
+									<div class="testimonial-box second-testimonial">
+										<p class="testimonial">"I absolutely love these! I got in on the $10 for your first pair as a first time VIP member, and boy I love this website now! The fur is so soft and the shoes feel super sturdy! Thanks for making boots shopping easy."</p>
+										<p class="author">-Bryanna D.</p>
+									</div>
+									<div class="testimonial-box third-testimonial">
+										<p class="testimonial">"I purchased boots for my daughters 21st Birthday. They are STUNNING in person. Gorgeous craftsmanship. This is the best purchase ever. This is my place to buy boots for all ocassions"</p>
+										<p class="author">-Elaine G.</p>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial">
+								<div class="testimonial-boxes">
+									<div class="testimonial-box">
+										<p class="testimonial">"Everything that I have received from Pink Boots has been excellent. They never fail with quality and the amazing boots they have. They arrive on time in well packaged boxes. I have been hooked since the first pair! Love!"</p>
+										<p class="author">-Paris U.</p>
+									</div>
+									<div class="testimonial-box second-testimonial">
+										<p class="testimonial">"All the boots I buy at Pink Boots are amazing, They arrive to my house early. All of them are of great quality & material. They feel luxurious even though the price is very affordable. They have great deals too."</p>
+										<p class="author">-Angel R.</p>
+									</div>
+									<div class="testimonial-box third-testimonial">
+										<p class="testimonial">"I ALWAYS have trouble finding shoes being that I have a larger foot than most. I'm so glad I found Pink Boots because no shoes have ever fit better. They are inexpensive and last a long time. I will keep ordering until that changes lol."</p>
+										<p class="author">-Kate L.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div id="about" class="grid-flex cf">
+				<div class="about-desc col col-text">
+					<div class="Aligner-item">
+						<h1> A little about us </h1>
+						<p class="first"> Great style begins with the right boots, and we have been delivering them to your door since 1996.</p>
+						<p class="second"> From comfortable, casual boots to the dress boots that make your occasions special, we've got the styles, brands and expertise to ensure you get the look you want in the size you need.</p>
+						<a class="button hvr-float-shadow" href="shop.html">Shop now</a>
+					</div>
+				</div>
+				<div class="about-img col col-img"></div>
+			</div> -->
+			<div>
+				<div class="restrict-width">
+					<div class="gallery-section box">
+						<h1> #PinkBoots </h1>
+						<div class="my-gallery">
+						    <figure class="gallery-thumb1" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb1.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide1.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Lissette Calveiro</p>
+							      			<p class="share-date">September 15, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				1047<img src="images/gallery/like.png" class="share-like">
+							      				40<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide1-boot.jpeg"></a>
+							      			<h3>Gazelle</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						      </div>
+						    </figure>
+
+						    <figure class="gallery-thumb2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb2.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide2.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Amanda Williams</p>
+							      			<p class="share-date">September 4, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				862<img src="images/gallery/like.png" class="share-like">
+							      				8<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide2-boot.jpeg"></a>
+							      			<h3>Linda Faux</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						      </div>
+						    </figure>
+
+							<figure class="gallery-thumb3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb3.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide3.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Julie Fox</p>
+							      			<p class="share-date">October 10, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				216<img src="images/gallery/like.png" class="share-like">
+							      				24<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide3-boot.jpeg"></a>
+							      			<h3>Fiora</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						      </div>
+						    </figure>
+
+						    <figure class="gallery-thumb4" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb4.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide4.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Cassandra Vein</p>
+							      			<p class="share-date">November 6, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				541<img src="images/gallery/like.png" class="share-like">
+							      				14<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide4-boot.jpeg"></a>
+							      			<h3>Yohana</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						    </figure>
+
+						    <figure class="gallery-thumb5" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb5.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide5.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Shirley Grant</p>
+							      			<p class="share-date">September 27, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				265<img src="images/gallery/like.png" class="share-like">
+							      				21<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide5-boot.jpeg"></a>
+							      			<h3>Kulani</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						    </figure>
+
+						    <figure class="gallery-thumb6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb6.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide6.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Echo Elaine</p>
+							      			<p class="share-date">October 21, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				2167<img src="images/gallery/like.png" class="share-like">
+							      				86<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide6-boot.jpeg"></a>
+							      			<h3>Sebianah</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						    </figure>
+
+						    <figure class="gallery-thumb7" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb7.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide7.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Crystal Clarke</p>
+							      			<p class="share-date">November 02, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				643<img src="images/gallery/like.png" class="share-like">
+							      				72<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide7-boot.jpeg"></a>
+							      			<h3>Yohana</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						    </figure>
+
+						    <figure class="gallery-thumb8" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb8.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide8.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Shirley Grant</p>
+							      			<p class="share-date">September 27, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				265<img src="images/gallery/like.png" class="share-like">
+							      				21<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide8-boot.jpeg"></a>
+							      			<h3>Kulani</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						    </figure>
+
+						    <figure class="gallery-thumb9" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb9.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide9.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Lissette Calveiro</p>
+							      			<p class="share-date">September 15, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				1047<img src="images/gallery/like.png" class="share-like">
+							      				40<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide9-boot.jpeg"></a>
+							      			<h3>Gazelle</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						    </figure>
+
+						    <figure class="gallery-thumb10" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb10.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide10.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Cassandra Vein</p>
+							      			<p class="share-date">November 6, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				541<img src="images/gallery/like.png" class="share-like">
+							      				14<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide10-boot.jpeg"></a>
+							      			<h3>Yohana</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						    </figure>
+
+						    <figure class="gallery-thumb11" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						      <a><img class="thumbnail" src="images/gallery/thumb11.jpg" itemprop="thumbnail" alt="Image description" /></a>
+						      <div class="gallery-slide-content">
+						      	<div class="gallery-slide">
+						      		<div class="gallery-slide-box">
+							      		<div class="gallery-slide-img">
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide11.jpg"></a>
+							      		</div>
+							      		<div class="gallery-slide-share box">
+							      			<p class="sharer">Emily Wilson</p>
+							      			<p class="share-date">April 19, 2018 </p>
+							      			<img src="images/gallery/instagram.png" class="share-instagram">
+							      			<p class="share-stats">
+							      				765<img src="images/gallery/like.png" class="share-like">
+							      				112<img src="images/gallery/comment.png" class="share-comment">
+							      			</p>
+							      			<p class="share-title">Related Product</p>
+							      			<a href="product.html"><img src="images/gallery/gallery-slides/slide11-boot.jpeg"></a>
+							      			<h3>Rubie</h3>
+							      			<a class="button" href="shop.html">Shop now</a>
+							      		</div>
+							      	</div>
+						      	</div>
+						    </figure>
+						</div>
+						<a href="http://www.instagram.com" target="_blank" class="button">View gallery</a>
+			  		</div>
+			  	</div>
+			 </div>
 			<footer>
 				<div id="footer">
-					<div class="footer-logo">
-						<a href="#"><img src="images/footer/logo_footer.png" alt="Logo"></a>
-					</div>	
-					<div class="footer-nav">
-						<ul>
-							<li><a href="shop.html">Shop</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">My Account</a></li>
-						</ul>
-					</div>
-					<div class="subscribe">
-						<input type="text" placeholder="Enter Your Email">
-						<a class="button" href="#">SUBSCRIBE</a>
-						<p> Sign up for our awesome news </p>
-					</div>
 					<div class="social-media-icons">
 						<a href="http://www.facebook.com" target="_blank"><img alt="facebook" src="images/footer/facebook.png" width="35"></a> 
 						<a href="http://www.twitter.com" target="_blank"><img alt="twitter" src="images/footer/twitter.png" width="35"></a>
@@ -256,12 +604,73 @@
 						<a href="http://www.pinterest.com" target="_blank"><img alt="pinterest" src="images/footer/pinterest.png" width="35"></a>
 					</div>
 					<div class="copyright">
-						<small>&copy; 2016 PinkBoots.com. All Rights Reserved.</small>
+						<small>&copy; 2016 PinkBoots.com</small>
 					</div>
 				</div>
 			</footer>
 		</div>
 		<script src="js/jquery-3.0.0.min.js"></script>
 		<script src="js/main.js"></script>
+		<script type="text/javascript" src="js/photoswipe/photoswipe.js"></script>
+		<script type="text/javascript" src="js/photoswipe/photoswipe-ui-default.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+		<script src="js/index.js"></script>
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		    <!-- Background of PhotoSwipe. 
+		         It's a separate element as animating opacity is faster than rgba(). -->
+		    <div class="pswp__bg"></div>
+
+		    <!-- Slides wrapper with overflow:hidden. -->
+		    <div class="pswp__scroll-wrap">
+		        <!-- Container that holds slides. 
+		            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+		            Don't modify these 3 pswp__item elements, data is added later on. -->
+		        <div class="pswp__container">
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		        </div>
+		        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+		        <div class="pswp__ui pswp__ui--hidden">
+		            <div class="pswp__top-bar">
+		                <!--  Controls are self-explanatory. Order can be changed. -->
+
+		                <div class="pswp__counter"></div>
+
+		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+		                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+		                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+		                <!-- element will get class pswp__preloader--active when preloader is running -->
+		                <div class="pswp__preloader">
+		                    <div class="pswp__preloader__icn">
+		                      <div class="pswp__preloader__cut">
+		                        <div class="pswp__preloader__donut"></div>
+		                      </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		                <div class="pswp__share-tooltip"></div> 
+		            </div>
+
+		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+		            </button>
+
+		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+		            </button>
+
+		            <div class="pswp__caption">
+		                <div class="pswp__caption__center"></div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
 	</body>
 </html>

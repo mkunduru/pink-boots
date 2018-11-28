@@ -18,11 +18,11 @@ jQuery(document).ready(function($){
 
 	$('.quick-icons').hide();
 
-	$('.quick-filter-item').click(function(){
-		$this = $('.quick-filter').find('a.selected');
-		$this.removeClass('selected').children('img').attr('src', $this.children("img").data("src"));
-		$(this).children('a').addClass('selected');
-	});
+	// $('.quick-filter-item a').click(function(){
+	// 	$this = $('.quick-filter').find('a.selected');
+	// 	$this.removeClass('selected').children('img').attr('src', $this.children("img").data("src"));
+	// 	$(this).addClass('selected');
+	// });
 
 	$(".thumbnail").click(function(e){
 		$path = $(this).children("img").attr('src');
@@ -129,4 +129,3 @@ jQuery(document).ready(function($){
 	}
 
 });
-

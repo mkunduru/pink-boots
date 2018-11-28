@@ -1,0 +1,205 @@
+.gallery-slide-content {
+	display: none;
+}
+
+.gallery-slide-box {
+	width: 880px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.gallery-slide {
+	font: 400 16px/1.6em 'Roboto', sans-serif;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.gallery-slide-img {
+	width: 440px;
+	height: 550px;
+	display: block;
+}
+
+.gallery-slide-share {
+	width: 440px;
+	height: 550px;
+	background: #fff;
+	position: relative;
+}
+
+.gallery-slide-img img {
+	width: 100%;
+	height: auto;
+}
+
+.gallery-slide-share img {
+	width: 150px;
+}
+
+.gallery-section {
+	text-align: center;
+}
+
+.gallery-thumb1 {
+	grid-area: first-image;
+}
+
+.gallery-thumb2 {
+	grid-area: second-image;
+}
+
+.gallery-thumb3 {
+	grid-area: third-image;
+}
+
+.gallery-thumb4 {
+	grid-area: fourth-image;
+}
+
+.gallery-thumb5 {
+	grid-area: fifth-image;
+}
+
+.gallery-thumb6 {
+	grid-area: sixth-image;
+}
+
+.gallery-thumb7 {
+	grid-area: seventh-image;
+}
+
+.gallery-thumb8 {
+	grid-area: eighth-image;
+}
+
+.gallery-thumb9 {
+	grid-area: ninth-image;
+}
+
+.gallery-thumb10 {
+	grid-area: tenth-image;
+}
+
+.gallery-thumb11 {
+	grid-area: eleventh-image;
+}
+
+.my-gallery {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: [first] 1fr [second] 1fr [third] 1fr [fourth] 1fr [five] 1fr [six] 1fr;
+	grid-template-rows: [firstrow] auto [secondrow] auto [thirdrow] auto;
+	grid-template-areas:
+		"first-image first-image second-image second-image third-image fourth-image"
+		"first-image first-image fifth-image sixth-image seventh-image seventh-image"
+		"eighth-image ninth-image tenth-image eleventh-image seventh-image seventh-image";
+}
+
+.my-gallery figure {
+	padding: 1px;
+}
+
+.my-gallery figure .thumbnail {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.sharer {
+	font-weight: 600;
+	text-align: left;
+}
+
+.share-date {
+	text-align: left;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 5px;
+	color: #aaa;
+}
+
+.share-title {
+	text-align: left;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.share-stats {
+	text-align: left;
+	margin-top: 15px;
+	line-height: 12px;
+}
+
+.gallery-slide-share img.share-instagram {
+	height: 18px;
+	width: auto;
+	opacity: 0.3;
+	display: inline-block;
+	margin-left: 10px;
+	position: absolute;
+	top: 50px;
+	left: 170px;
+}
+
+.gallery-slide-share img.share-like {
+	height: 21px;
+	width: auto;
+	opacity: 1;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+
+.gallery-slide-share img.share-comment {
+	height: 18px;
+	width: auto;
+	opacity: 0.6;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.gallery-slide-share h3 {
+	margin-bottom: 40px;
+}
+
+.pswp__button--arrow--left:before {
+	background: url("../images/gallery/arrow-left.png") 0 0 no-repeat;
+}
+
+.pswp__button--arrow--right:before {
+	background: url("../images/gallery/arrow-right.png") 0 0 no-repeat;
+}
+
+
+.pswp__button,
+.pswp__button--arrow--left:before,
+.pswp__button--arrow--right:before {
+  width: 44px;
+  height: 44px; 
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+  /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+  .pswp--svg .pswp__button--arrow--left:before {
+  	background: url("../images/gallery/arrow-left.png") 0 0 no-repeat;
+  }
+  .pswp--svg .pswp__button--arrow--right:before {
+    background: url("../images/gallery/arrow-right.png") 0 0 no-repeat;
+  }
+  
+  .pswp--svg .pswp__button--arrow--left,
+  .pswp--svg .pswp__button--arrow--right {
+    background: none; 
+  } 
+}
