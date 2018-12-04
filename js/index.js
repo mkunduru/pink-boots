@@ -1,4 +1,19 @@
 jQuery(document).ready(function($){
+
+    // $(window).resize();
+    // $(window).on('resize', function(){
+    //   var height = $(window).height();
+    //     var heroHeight = $('.hero').height();
+
+    //     if(height < heroHeight + 100) {
+    //         $('.slide-arrow').show();
+    //     }
+    //     else {
+    //         $('.slide-arrow').hide();
+    //     }
+    // });
+
+
 	$('.testimonial-slides').slick({
 		dots: true,
 		infinite: false,

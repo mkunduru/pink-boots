@@ -105,9 +105,9 @@
 		"eighth-image ninth-image tenth-image eleventh-image seventh-image seventh-image";
 }
 
-.my-gallery figure {
-	padding: 1px;
-}
+/*.my-gallery figure {
+	padding: 2px;
+}*/
 
 .my-gallery figure .thumbnail {
 	width: 100%;
@@ -146,10 +146,9 @@
 	width: auto;
 	opacity: 0.3;
 	display: inline-block;
-	margin-left: 10px;
-	position: absolute;
-	top: 50px;
-	left: 170px;
+	margin-left: 5px;
+	position: relative;
+	top: 3px;
 }
 
 .gallery-slide-share img.share-like {
@@ -159,6 +158,8 @@
 	display: inline-block;
 	margin-left: 5px;
 	margin-right: 15px;
+	position: relative;
+	top: 3px;
 }
 
 .gallery-slide-share img.share-comment {
@@ -167,6 +168,8 @@
 	opacity: 0.6;
 	display: inline-block;
 	margin-left: 5px;
+	position: relative;
+	top: 3px;
 }
 
 .gallery-slide-share h3 {
@@ -187,6 +190,14 @@
 .pswp__button--arrow--right:before {
   width: 44px;
   height: 44px; 
+}
+
+.pswp__button--arrow--right {
+	right: calc(((100% - 1100px)/2));
+}
+
+.pswp__button--arrow--left {
+	left: calc(((100% - 1100px)/2));
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {

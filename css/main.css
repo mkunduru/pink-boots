@@ -77,6 +77,10 @@ Global Styles
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 #container {
 	font: 400 16px/1.6em 'Roboto', sans-serif;
 	color: #000;
@@ -148,7 +152,8 @@ Typography
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+h1, .lookbook-header
+ {
 	font: 500 48px/1.4em 'Abril Fatface', cursive;
 	margin-bottom: 0.8em;
 	position: relative;
@@ -369,6 +374,8 @@ Header
 
 .quick-links img {
 	width: 18px;
+	position: relative;
+	top: 3px;
 }
 
 .logo img {
@@ -452,26 +459,50 @@ Homepage
 ---------------------------------------------
 */
 
+/*.slide-arrow {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 0;
+	left: calc(50% - 25px);
+	z-index: 1000;
+	cursor: pointer;
+	display: none;
+}*/
+
+/*.slide-arrow img {
+	width: 100%;
+	height: auto;
+}*/
+
 .hero {
 	position: relative;
+	height: 80vh;
+	width: 100%;
+	background: url('../images/home_hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 60% 30%;
 }
 
-.hero img {
+
+
+/*.hero img {
 	width: 100%;
 	height: auto;
 	display: block;
-}
+}*/
 
 .caption {
 	position: absolute;
-	top: 10%;
-	left: 12%;
-	width: 400px;
+	top: 15%;
+	left: 8%;
+	width: 700px;
 }
 
 .caption p {
-	font: 300 60px/1.1em 'Abril Fatface', cursive;
-	margin-bottom: 10%;
+	font: 300 72px/1.1em 'Abril Fatface', cursive;
+	margin-bottom: 40px;
 }
 
 .product-teaser {
@@ -564,7 +595,7 @@ Homepage
 
 .testimonial {
 	text-align: left;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .testimonial-boxes {
@@ -638,7 +669,6 @@ Homepage
 
 .author {
 	font-weight: 500;
-	margin-top: 40px;
 }
 
 #about {
@@ -653,6 +683,38 @@ Homepage
 
 p.second {
 	margin-bottom: 30px;
+}
+
+.lookbook-teaser {
+	position: relative;
+}
+
+.lookbook-teaser img {
+	width: 100%;
+	height: auto;
+}
+
+.lookbook-teaser--title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	background-color: rgba(0,0,0,0.25);
+	text-align: center;
+	color: #fff;
+}
+
+.lookbook-header {
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+}
+
+.lookbook-teaser--action {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 /* 
@@ -861,7 +923,7 @@ Lookbook
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	.align-content: center;
+	align-content: center;
 }
 
 .featured-look {
@@ -1384,7 +1446,8 @@ Confirmation Page
 
 .confirmation-summary a {
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .confirmation-summary img {
@@ -1406,6 +1469,11 @@ Media Queries
 		top: 12%;
 		left: 10%;
 		width: 400px;
+	}
+
+	.caption p {
+		font-size: 60px;
+		margin-bottom: 10%;
 	}
 }
 
@@ -1446,7 +1514,7 @@ Media Queries
 }
 
 @media screen and (max-width: 1024px) {
-	h1 {
+	h1, .lookbook-header {
 		font-size: 42px;
 	}
 
@@ -1512,7 +1580,7 @@ Media Queries
 
 @media screen and (max-width: 767px) {
 
-	h1 {
+	h1, .lookbook-header {
 		font-size: 32px;
 	}
 
@@ -2010,7 +2078,7 @@ Media Queries
 		font-weight: 300;
 	}
 
-	h1 {
+	h1, .lookbook-header {
 		font-size: 28px;
 	}
 
